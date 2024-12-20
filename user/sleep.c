@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv ){
     if (argc<=1){
-        print("erro!please wirte the seconds you want sleep for" );
+        printf("erro!please wirte the seconds you want sleep for" );
         exit(1);
     }
     sleep(atoi(argv[1]));
